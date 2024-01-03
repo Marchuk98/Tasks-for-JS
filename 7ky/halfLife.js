@@ -1,0 +1,1 @@
+const halfLife = (quantityInitial, quantityRemaining, time) => time / Math.log2(quantityInitial/quantityRemaining) ;
